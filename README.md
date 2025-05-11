@@ -1,4 +1,4 @@
-# Lung-Cancer-Prediction-Using-Machine-Learning
+# Lung Cancer Prediction Model
 
 This repository contains a machine-learning model for predicting lung cancer risk based on various patient features. The project includes data preprocessing, model training, evaluation, and saving the trained model for future use.
 
@@ -51,6 +51,7 @@ Make sure you have the following Python libraries installed:
 - `joblib`
 
 You can install the required libraries using pip:
+
 ```bash
 pip install pandas numpy matplotlib scikit-learn joblib
 ```
@@ -67,9 +68,14 @@ Run the following command to execute the script:
 python lung_cancer_prediction.py
 ```
 ## Model Evaluation
+
 After training the model, the evaluation metrics include:
 
 - **Precision**: Measures the accuracy of positive predictions.
 - **Recall**: Measures the ability of the model to find all positive samples.
 - **Confusion Matrix**: Displays the number of true positives, true negatives, false positives, and false negatives.
 - **Log Loss**: Measures the performance of the classification model where predictions are probabilities.
+
+## Disclaimer:
+
+This project is for educational purposes only and should not be used for real-world medical diagnosis or treatment. The machine learning model developed here is based on publicly available data from Kaggle and has been modified and trained to demonstrate classification techniques using Logistic Regression, KNN, and SVM. It has not been validated for clinical use, and its predictions may not be reliable for actual patient care. Always consult healthcare professionals for medical advice and decisions.
